@@ -32,7 +32,7 @@ addpath('library')
 %prFileName    = 'gnss_log_2023_03_17_16_54_04.txt'; %FILE PROF
 dirName       = 'demoFiles/dataset_b';
 %prFileName    = 'test.txt'; %FILE STANDARD NOSTRO
-prFileName    = 'logmicroonde.txt'; %FILE MICROONDE NOSTRO
+prFileName    = 'logchiamata.txt'; %FILE CHIAMATA NOSTRO
 
 %% true position
 param.llaTrueDegDegM = [];
