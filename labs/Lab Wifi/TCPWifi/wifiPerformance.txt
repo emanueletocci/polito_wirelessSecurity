@@ -10,3 +10,16 @@ Connected to 64:f6:9d:55:7d:ef (on wlo1)
         bss flags: short-slot-time
         dtim period: 1
         beacon int: 102
+
+davide@MSI:~$ sudo iw dev wlo1 link
+Connected to 64:f6:9d:87:36:9f (on wlo1)
+        SSID: polito
+        freq: 5560.0
+        RX: 559039 bytes (2076 packets)
+        TX: 10266827 bytes (8467 packets)
+        signal: -64 dBm
+        rx bitrate: 324.0 MBit/s VHT-MCS 8 40MHz VHT-NSS 2
+        tx bitrate: 324.0 MBit/s VHT-MCS 8 40MHz VHT-NSS 2
+        bss flags: short-slot-time
+        dtim period: 1
+        beacon int: 102
