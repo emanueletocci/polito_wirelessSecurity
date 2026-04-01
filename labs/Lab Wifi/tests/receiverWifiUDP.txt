@@ -1,0 +1,139 @@
+antonio@anto-kubuntu:~$ iperf -u -s -i 1
+------------------------------------------------------------
+Server listening on UDP port 5001
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.21.224.97 port 5001 connected with 10.21.224.90 port 51304
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-1.0000 sec   155 KBytes  1.27 Mbits/sec   0.380 ms 0/108 (0%)
+[  1] 1.0000-2.0000 sec   129 KBytes  1.06 Mbits/sec   0.822 ms 0/90 (0%)
+[  1] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec   0.362 ms 0/89 (0%)
+[  1] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec   0.891 ms 0/89 (0%)
+[  1] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec   0.824 ms 0/89 (0%)
+[  1] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec   1.139 ms 0/89 (0%)
+[  1] 6.0000-7.0000 sec   128 KBytes  1.05 Mbits/sec   1.034 ms 0/89 (0%)
+[  1] 7.0000-8.0000 sec   129 KBytes  1.06 Mbits/sec   0.859 ms 0/90 (0%)
+[  1] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec   0.366 ms 0/89 (0%)
+[  1] 9.0000-9.8066 sec   103 KBytes  1.05 Mbits/sec   1.134 ms 0/72 (0%)
+[  1] 0.0000-9.8066 sec  1.25 MBytes  1.07 Mbits/sec   0.973 ms 0/894 (0%)
+[  2] local 10.21.224.97 port 5001 connected with 10.21.224.90 port 33669
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  2] 0.0000-1.0000 sec   128 KBytes  1.05 Mbits/sec   1.561 ms 0/89 (0%)
+[  2] 1.0000-2.0000 sec   129 KBytes  1.06 Mbits/sec   0.825 ms 0/90 (0%)
+[  2] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec   0.566 ms 0/89 (0%)
+[  2] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec   1.336 ms 0/89 (0%)
+[  2] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec   1.041 ms 0/89 (0%)
+[  2] 5.0000-6.0000 sec   129 KBytes  1.06 Mbits/sec   0.652 ms 0/90 (0%)
+[  2] 6.0000-7.0000 sec   128 KBytes  1.05 Mbits/sec   1.181 ms 0/89 (0%)
+[  2] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec   1.262 ms 0/89 (0%)
+[  2] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec   1.610 ms 0/89 (0%)
+[  2] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec   1.208 ms 0/89 (0%)
+[  2] 0.0000-10.0147 sec  1.25 MBytes  1.05 Mbits/sec   1.083 ms 0/894 (0%)
+[  4] WARNING: ack of last datagram failed.
+[  3] local 10.21.224.97 port 5001 connected with 10.21.224.90 port 35965
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3] 0.0000-1.0000 sec   135 KBytes  1.11 Mbits/sec   1.317 ms 0/94 (0%)
+[  3] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec   0.783 ms 0/89 (0%)
+[  3] 2.0000-3.0000 sec   129 KBytes  1.06 Mbits/sec   1.123 ms 0/90 (0%)
+[  3] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec   1.169 ms 0/89 (0%)
+[  3] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec   1.152 ms 0/89 (0%)
+[  3] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec   1.196 ms 0/89 (0%)
+[  3] 6.0000-7.0000 sec   128 KBytes  1.05 Mbits/sec   1.456 ms 0/89 (0%)
+[  3] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec   1.108 ms 0/89 (0%)
+[  3] 8.0000-9.0000 sec   129 KBytes  1.06 Mbits/sec   0.997 ms 0/90 (0%)
+[  3] 9.0000-9.9637 sec   123 KBytes  1.05 Mbits/sec   1.463 ms 0/86 (0%)
+[  3] 0.0000-9.9637 sec  1.25 MBytes  1.06 Mbits/sec   1.091 ms 0/894 (0%)
+[  4] local 10.21.224.97 port 5001 connected with 10.21.224.90 port 58366
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  4] 0.0000-1.0000 sec   128 KBytes  1.05 Mbits/sec   1.019 ms 0/89 (0%)
+[  4] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec   1.099 ms 0/89 (0%)
+[  4] 2.0000-3.0000 sec   129 KBytes  1.06 Mbits/sec   1.276 ms 0/90 (0%)
+[  4] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec   1.466 ms 0/89 (0%)
+[  4] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec   1.046 ms 0/89 (0%)
+[  4] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec   1.346 ms 0/89 (0%)
+[  4] 6.0000-7.0000 sec   129 KBytes  1.06 Mbits/sec   1.012 ms 0/90 (0%)
+[  4] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec   1.455 ms 0/89 (0%)
+[  4] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec   1.193 ms 0/89 (0%)
+[  4] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec   1.356 ms 0/89 (0%)
+[  4] 0.0000-10.0167 sec  1.25 MBytes  1.05 Mbits/sec   1.072 ms 0/894 (0%)
+[  4] WARNING: ack of last datagram failed.
+[  5] local 10.21.224.97 port 5001 connected with 10.21.224.90 port 50907
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  5] 0.0000-1.0000 sec   129 KBytes  1.06 Mbits/sec   1.214 ms 0/90 (0%)
+[  5] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec   1.297 ms 0/89 (0%)
+[  5] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec   1.362 ms 0/89 (0%)
+[  5] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec   1.932 ms 0/89 (0%)
+[  5] 4.0000-5.0000 sec   129 KBytes  1.06 Mbits/sec   1.198 ms 0/90 (0%)
+[  5] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec   0.869 ms 0/89 (0%)
+[  5] 6.0000-7.0000 sec   128 KBytes  1.05 Mbits/sec   1.049 ms 0/89 (0%)
+[  5] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec   1.507 ms 0/89 (0%)
+[  5] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec   1.355 ms 0/89 (0%)
+[  5] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec   1.107 ms 0/89 (0%)
+[  5] 0.0000-10.0114 sec  1.25 MBytes  1.05 Mbits/sec   1.114 ms 0/894 (0%)
+[  3] WARNING: ack of last datagram failed.
+[  6] local 10.21.224.97 port 5001 connected with 10.21.224.90 port 47758
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  6] 0.0000-1.0000 sec   129 KBytes  1.06 Mbits/sec   1.045 ms 0/90 (0%)
+[  6] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec   0.822 ms 0/89 (0%)
+[  6] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec   0.493 ms 0/89 (0%)
+[  6] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec   1.309 ms 0/89 (0%)
+[  6] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec   1.683 ms 0/89 (0%)
+[  6] 5.0000-6.0000 sec   129 KBytes  1.06 Mbits/sec   1.005 ms 0/90 (0%)
+[  6] 6.0000-7.0000 sec   128 KBytes  1.05 Mbits/sec   1.244 ms 0/89 (0%)
+[  6] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec   0.913 ms 0/89 (0%)
+[  6] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec   0.863 ms 0/89 (0%)
+[  6] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec   0.876 ms 0/89 (0%)
+[  6] 0.0000-10.0166 sec  1.25 MBytes  1.05 Mbits/sec   1.024 ms 0/894 (0%)
+[  7] local 10.21.224.97 port 5001 connected with 10.21.224.90 port 51732
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  7] 0.0000-1.0000 sec   129 KBytes  1.06 Mbits/sec   1.441 ms 0/90 (0%)
+[  7] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec   1.138 ms 0/89 (0%)
+[  7] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec   1.151 ms 0/89 (0%)
+[  7] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec   0.552 ms 0/89 (0%)
+[  7] 4.0000-5.0000 sec   129 KBytes  1.06 Mbits/sec   0.436 ms 0/90 (0%)
+[  7] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec   0.981 ms 0/89 (0%)
+[  7] 6.0000-7.0000 sec   128 KBytes  1.05 Mbits/sec   0.820 ms 0/89 (0%)
+[  7] 7.0000-8.0000 sec   126 KBytes  1.03 Mbits/sec   2.395 ms 0/88 (0%)
+[  7] 8.0000-9.0000 sec   129 KBytes  1.06 Mbits/sec   1.009 ms 0/90 (0%)
+[  7] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec   1.210 ms 0/89 (0%)
+[  7] 0.0000-10.0121 sec  1.25 MBytes  1.05 Mbits/sec   1.167 ms 0/894 (0%)
+[  8] local 10.21.224.97 port 5001 connected with 10.21.224.90 port 34009
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  8] 0.0000-1.0000 sec   129 KBytes  1.06 Mbits/sec   1.002 ms 0/90 (0%)
+[  8] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec   1.270 ms 0/89 (0%)
+[  8] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec   1.087 ms 0/89 (0%)
+[  8] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec   0.669 ms 0/89 (0%)
+[  8] 4.0000-5.0000 sec   129 KBytes  1.06 Mbits/sec   1.402 ms 0/90 (0%)
+[  8] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec   1.005 ms 0/89 (0%)
+[  8] 6.0000-7.0000 sec   128 KBytes  1.05 Mbits/sec   1.048 ms 0/89 (0%)
+[  8] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec   1.192 ms 0/89 (0%)
+[  8] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec   0.995 ms 0/89 (0%)
+[  8] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec   0.932 ms 0/89 (0%)
+[  8] 0.0000-10.0139 sec  1.25 MBytes  1.05 Mbits/sec   1.079 ms 0/894 (0%)
+[  4] WARNING: ack of last datagram failed.
+[  9] local 10.21.224.97 port 5001 connected with 10.21.224.90 port 45966
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  9] 0.0000-1.0000 sec   142 KBytes  1.16 Mbits/sec   1.155 ms 0/99 (0%)
+[  9] 1.0000-2.0000 sec   129 KBytes  1.06 Mbits/sec   1.115 ms 0/90 (0%)
+[  9] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec   1.042 ms 0/89 (0%)
+[  9] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec   1.141 ms 0/89 (0%)
+[  9] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec   1.430 ms 0/89 (0%)
+[  9] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec   1.357 ms 0/89 (0%)
+[  9] 6.0000-7.0000 sec   128 KBytes  1.05 Mbits/sec   1.193 ms 0/89 (0%)
+[  9] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec   1.137 ms 0/89 (0%)
+[  9] 8.0000-9.0000 sec   129 KBytes  1.06 Mbits/sec   1.135 ms 0/90 (0%)
+[  9] 9.0000-9.9076 sec   116 KBytes  1.05 Mbits/sec   1.604 ms 0/81 (0%)
+[  9] 0.0000-9.9076 sec  1.25 MBytes  1.06 Mbits/sec   1.274 ms 0/894 (0%)
+[ 10] local 10.21.224.97 port 5001 connected with 10.21.224.90 port 40533
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[ 10] 0.0000-1.0000 sec   129 KBytes  1.06 Mbits/sec   1.112 ms 0/90 (0%)
+[ 10] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec   1.503 ms 0/89 (0%)
+[ 10] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec   1.156 ms 0/89 (0%)
+[ 10] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec   1.238 ms 0/89 (0%)
+[ 10] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec   1.188 ms 0/89 (0%)
+[ 10] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec   1.050 ms 0/89 (0%)
+[ 10] 6.0000-7.0000 sec   129 KBytes  1.06 Mbits/sec   0.828 ms 0/90 (0%)
+[ 10] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec   0.865 ms 0/89 (0%)
+[ 10] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec   1.045 ms 0/89 (0%)
+[ 10] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec   0.859 ms 0/89 (0%)
+[ 10] 0.0000-10.0155 sec  1.25 MBytes  1.05 Mbits/sec   1.215 ms 0/894 (0%)
