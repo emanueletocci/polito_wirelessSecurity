@@ -1,0 +1,12 @@
+antonio@anto-kubuntu:~$ iw dev wlo1 link
+Connected to 64:f6:9d:55:7d:ef (on wlo1)
+        SSID: polito
+        freq: 5260.0
+        RX: 972880961 bytes (3651375 packets)
+        TX: 24344363 bytes (234361 packets)
+        signal: -55 dBm
+        rx bitrate: 360.0 MBit/s VHT-MCS 9 40MHz VHT-NSS 2
+        tx bitrate: 300.0 MBit/s VHT-MCS 7 40MHz short GI VHT-NSS 2
+        bss flags: short-slot-time
+        dtim period: 1
+        beacon int: 102
