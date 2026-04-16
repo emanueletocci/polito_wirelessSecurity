@@ -21,7 +21,7 @@ jobs:
       uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
       with:
         target_sync_branch: main
-        upstream_sync_repo: polito-WA-2026/materials
+        upstream_sync_repo: MarinDavide/wirelessSecurity
         upstream_sync_branch: main
         target_repo_token: ${{ secrets.GITHUB_TOKEN }}
 
