@@ -1,0 +1,180 @@
+--- Test 1 of 10 ---
+------------------------------------------------------------
+Client connecting to 169.254.64.70, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 169.254.21.153 port 56812 connected with 169.254.64.70 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec  12.0 MBytes   101 Mbits/sec
+[  1] 1.0000-2.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 2.0000-3.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 3.0000-4.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 4.0000-5.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 5.0000-6.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 6.0000-7.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 7.0000-8.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 8.0000-9.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 9.0000-10.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 0.0000-10.0756 sec   113 MBytes  93.9 Mbits/sec
+--- Test 2 of 10 ---
+------------------------------------------------------------
+Client connecting to 169.254.64.70, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 169.254.21.153 port 39624 connected with 169.254.64.70 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec  12.0 MBytes   101 Mbits/sec
+[  1] 1.0000-2.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 2.0000-3.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 3.0000-4.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 4.0000-5.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 5.0000-6.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 6.0000-7.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 7.0000-8.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 8.0000-9.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 9.0000-10.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 0.0000-10.0804 sec   113 MBytes  93.8 Mbits/sec
+--- Test 3 of 10 ---
+------------------------------------------------------------
+Client connecting to 169.254.64.70, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 169.254.21.153 port 48906 connected with 169.254.64.70 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec  11.6 MBytes  97.5 Mbits/sec
+[  1] 1.0000-2.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 2.0000-3.0000 sec  11.5 MBytes  96.5 Mbits/sec
+[  1] 3.0000-4.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 4.0000-5.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 5.0000-6.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 6.0000-7.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 7.0000-8.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 8.0000-9.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 9.0000-10.0000 sec  11.4 MBytes  95.4 Mbits/sec
+[  1] 0.0000-10.0879 sec   113 MBytes  93.9 Mbits/sec
+--- Test 4 of 10 ---
+------------------------------------------------------------
+Client connecting to 169.254.64.70, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 169.254.21.153 port 52042 connected with 169.254.64.70 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec  11.9 MBytes  99.6 Mbits/sec
+[  1] 1.0000-2.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 2.0000-3.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 3.0000-4.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 4.0000-5.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 5.0000-6.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 6.0000-7.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 7.0000-8.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 8.0000-9.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 9.0000-10.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 0.0000-10.0706 sec   113 MBytes  93.8 Mbits/sec
+--- Test 5 of 10 ---
+------------------------------------------------------------
+Client connecting to 169.254.64.70, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 169.254.21.153 port 38212 connected with 169.254.64.70 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec  11.9 MBytes  99.6 Mbits/sec
+[  1] 1.0000-2.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 2.0000-3.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 3.0000-4.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 4.0000-5.0000 sec  11.4 MBytes  95.4 Mbits/sec
+[  1] 5.0000-6.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 6.0000-7.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 7.0000-8.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 8.0000-9.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 9.0000-10.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 0.0000-10.0868 sec   113 MBytes  93.9 Mbits/sec
+--- Test 6 of 10 ---
+------------------------------------------------------------
+Client connecting to 169.254.64.70, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 169.254.21.153 port 50106 connected with 169.254.64.70 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec  11.9 MBytes  99.6 Mbits/sec
+[  1] 1.0000-2.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 2.0000-3.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 3.0000-4.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 4.0000-5.0000 sec  11.4 MBytes  95.4 Mbits/sec
+[  1] 5.0000-6.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 6.0000-7.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 7.0000-8.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 8.0000-9.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 9.0000-10.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 0.0000-10.0978 sec   113 MBytes  93.8 Mbits/sec
+--- Test 7 of 10 ---
+------------------------------------------------------------
+Client connecting to 169.254.64.70, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 169.254.21.153 port 42612 connected with 169.254.64.70 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec  11.8 MBytes  98.6 Mbits/sec
+[  1] 1.0000-2.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 2.0000-3.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 3.0000-4.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 4.0000-5.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 5.0000-6.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 6.0000-7.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 7.0000-8.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 8.0000-9.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 9.0000-10.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 0.0000-10.0673 sec   113 MBytes  93.8 Mbits/sec
+--- Test 8 of 10 ---
+------------------------------------------------------------
+Client connecting to 169.254.64.70, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 169.254.21.153 port 49226 connected with 169.254.64.70 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec  11.6 MBytes  97.5 Mbits/sec
+[  1] 1.0000-2.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 2.0000-3.0000 sec  11.5 MBytes  96.5 Mbits/sec
+[  1] 3.0000-4.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 4.0000-5.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 5.0000-6.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 6.0000-7.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 7.0000-8.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 8.0000-9.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 9.0000-10.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 0.0000-10.0901 sec   113 MBytes  93.7 Mbits/sec
+--- Test 9 of 10 ---
+------------------------------------------------------------
+Client connecting to 169.254.64.70, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 169.254.21.153 port 48706 connected with 169.254.64.70 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec  11.8 MBytes  98.6 Mbits/sec
+[  1] 1.0000-2.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 2.0000-3.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 3.0000-4.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 4.0000-5.0000 sec  11.6 MBytes  97.5 Mbits/sec
+[  1] 5.0000-6.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 6.0000-7.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 7.0000-8.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 8.0000-9.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 9.0000-10.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 0.0000-10.0995 sec   113 MBytes  93.8 Mbits/sec
+--- Test 10 of 10 ---
+------------------------------------------------------------
+Client connecting to 169.254.64.70, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 169.254.21.153 port 37810 connected with 169.254.64.70 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec  11.9 MBytes  99.6 Mbits/sec
+[  1] 1.0000-2.0000 sec  10.9 MBytes  91.2 Mbits/sec
+[  1] 2.0000-3.0000 sec  11.4 MBytes  95.4 Mbits/sec
+[  1] 3.0000-4.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 4.0000-5.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 5.0000-6.0000 sec  11.4 MBytes  95.4 Mbits/sec
+[  1] 6.0000-7.0000 sec  11.0 MBytes  92.3 Mbits/sec
+[  1] 7.0000-8.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 8.0000-9.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 9.0000-10.0000 sec  11.0 MBytes  92.3 Mbits/sec
+[  1] 0.0000-10.0587 sec   113 MBytes  93.8 Mbits/sec

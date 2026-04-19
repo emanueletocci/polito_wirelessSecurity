@@ -23,7 +23,7 @@ echo "---------------------------------------------------"
 # Loop for 10 measurements
 for i in {1..10}; do
     echo "--- Test $i of 10 ---" | tee -a "$LOG_FILE"
-    iperf -c "$SERVER_IP" -i 1 $FLAG_PROTO | tee -a "$LOG_FILE"
+    iperf -c "$SERVER_IP" -i 1 $FLAG_PROTO -R | tee -a "$LOG_FILE"
     sleep 1
 done
 
