@@ -35,7 +35,6 @@ echo "---------------------------------------------------"
 # Loop for 10 measurements
 for i in {1..10}; do
     echo "--- Test $i of 10 ---" | tee -a "$LOG_FILE"
-    # Qui è dove ho sostituito il -R fisso con la variabile $FLAG_METHOD
     iperf -c "$SERVER_IP" -i 1 $FLAG_PROTO $FLAG_METHOD | tee -a "$LOG_FILE"
     sleep 1
 done
