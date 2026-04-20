@@ -15,6 +15,19 @@ else
     echo "You chose TCP."
 fi
 
+# Request for the method
+read -r -p "Do you want to use standard or reverse mode? (Type standard or reverse): " METHOD
+
+# Flag configuration based on the choice
+if [ "$METHOD" = "reverse" ]; then
+    FLAG_METHOD="-R"
+    echo "You chose reverse mode. The -R flag will be added."
+else
+    FLAG_METHOD=""
+    echo "You chose standard mode."
+fi
+
+
 # Definition of the log file name based on inputs
 LOG_FILE="log_${PROTOCOL}_${SERVER_IP}.txt"
 echo "Starting the tests. The results will be saved and appended in: $LOG_FILE"
