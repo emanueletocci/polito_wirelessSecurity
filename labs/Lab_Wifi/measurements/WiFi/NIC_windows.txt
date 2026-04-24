@@ -1,0 +1,24 @@
+Nome                   : Wi-Fi
+    Descrizione            : MediaTek Wi-Fi 6 MT7921 Wireless LAN Card
+    GUID                   : 79b95ed7-426a-48a9-a994-b054922641a1
+    Indirizzo fisico       : 50:fe:0c:09:84:73
+    Tipo di interfaccia         : Primario
+    Stato                  : connessa
+    SSID                   : TIM-42281955
+    BSSID AP                  : b4:7c:a6:d3:17:4fBanda
+                   : 5 GHz    Canale
+                : 40crittografia Akm connessa
+    : [ akm = 00-0f-ac:02, crittografia = 00-0f-ac:04 ]
+    Tipo di rete                  : Infrastruttura
+    Tipo frequenza radio   : 802.11ax
+    Autenticazione            : WPA2-PersonalCrittografia
+                 : CCMP
+    Modalità di connessione     : Connessione automatica
+    Velocità ricezione (Mbps)  : 1201
+    Velocità trasmissione (Mbps) : 1201
+    Segnale             : 85%
+    Rssi                   : -57
+    Profilo                : TIM-42281955
+    QoS MSCS configurato: 0
+    Mappa QoS configurata: 0
+    Mappa QoS consentita dal criterio : 0
