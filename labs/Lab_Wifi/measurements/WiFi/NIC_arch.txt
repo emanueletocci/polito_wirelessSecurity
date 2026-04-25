@@ -1,0 +1,11 @@
+Connected to b4:7c:a6:d3:17:4f (on wlan0)
+	SSID: TIM-42281955
+	freq: 5200.0
+	RX: 3010110839 bytes (4959106 packets)
+	TX: 761508440 bytes (2821663 packets)
+	signal: -43 dBm
+	rx bitrate: 1921.5 MBit/s 160MHz EHT-MCS 9 EHT-NSS 2 EHT-GI 0
+	tx bitrate: 2593.5 MBit/s 160MHz EHT-MCS 12 EHT-NSS 2 EHT-GI 0
+	bss flags: short-preamble short-slot-time
+	dtim period: 1
+	beacon int: 100

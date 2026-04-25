@@ -1,0 +1,193 @@
+--- Test 1 of 10 ---
+------------------------------------------------------------
+Client connecting to 192.168.1.4, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.1.12 port 34684 connected with 192.168.1.4 port 5001 (reverse)
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[ *1] 0.0000-1.0000 sec  12.5 MBytes   105 Mbits/sec   0.016 ms 11871/20801 (57%)
+[ *1] 1.0000-2.0000 sec  22.0 MBytes   185 Mbits/sec   0.013 ms 5257/20951 (25%)
+[ *1] 2.0000-3.0000 sec  23.0 MBytes   193 Mbits/sec   0.016 ms 4964/21363 (23%)
+[ *1] 3.0000-4.0000 sec  30.6 MBytes   257 Mbits/sec   0.030 ms 53/21876 (0.24%)
+[ *1] 4.0000-5.0000 sec  29.8 MBytes   250 Mbits/sec   0.021 ms 172/21442 (0.8%)
+[ *1] 5.0000-6.0000 sec  30.3 MBytes   254 Mbits/sec   0.014 ms 408/22043 (1.9%)
+[ *1] 6.0000-7.0000 sec  31.3 MBytes   262 Mbits/sec   0.085 ms 54/22352 (0.24%)
+[ *1] 7.0000-8.0000 sec  32.3 MBytes   271 Mbits/sec   0.015 ms 10/23083 (0.043%)
+[ *1] 8.0000-9.0000 sec  31.5 MBytes   264 Mbits/sec   0.019 ms 129/22572 (0.57%)
+[ *1] 9.0000-9.9977 sec  30.9 MBytes   260 Mbits/sec   0.022 ms 87/22110 (0.39%)
+[ *1] 0.0000-9.9977 sec   274 MBytes   230 Mbits/sec   0.039 ms 23005/218593 (11%)
+--- Test 2 of 10 ---
+------------------------------------------------------------
+Client connecting to 192.168.1.4, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.1.12 port 40538 connected with 192.168.1.4 port 5001 (reverse)
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[ *1] 0.0000-1.0000 sec  31.9 MBytes   268 Mbits/sec   0.015 ms 166/22941 (0.72%)
+[ *1] 1.0000-2.0000 sec  32.1 MBytes   270 Mbits/sec   0.016 ms 381/23309 (1.6%)
+[ *1] 2.0000-3.0000 sec  33.0 MBytes   276 Mbits/sec   0.015 ms 44/23552 (0.19%)
+[ *1] 3.0000-4.0000 sec  25.7 MBytes   216 Mbits/sec   0.038 ms 3655/21996 (17%)
+[ *1] 4.0000-5.0000 sec  22.7 MBytes   190 Mbits/sec   0.012 ms 4270/20465 (21%)
+[ *1] 5.0000-6.0000 sec  21.9 MBytes   184 Mbits/sec   0.011 ms 8777/24421 (36%)
+[ *1] 6.0000-7.0000 sec  27.8 MBytes   233 Mbits/sec   0.032 ms 3644/23455 (16%)
+[ *1] 7.0000-8.0000 sec  30.1 MBytes   253 Mbits/sec   0.019 ms 563/22044 (2.6%)
+[ *1] 8.0000-9.0000 sec  26.2 MBytes   220 Mbits/sec   0.010 ms 4088/22811 (18%)
+[ *1] 9.0000-9.9980 sec  30.1 MBytes   253 Mbits/sec   0.038 ms 651/22135 (2.9%)
+[ *1] 0.0000-9.9980 sec   282 MBytes   236 Mbits/sec   0.039 ms 26239/227129 (12%)
+--- Test 3 of 10 ---
+------------------------------------------------------------
+Client connecting to 192.168.1.4, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.1.12 port 59545 connected with 192.168.1.4 port 5001 (reverse)
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[ *1] 0.0000-1.0000 sec  28.7 MBytes   241 Mbits/sec   0.023 ms 817/21288 (3.8%)
+[ *1] 1.0000-2.0000 sec  30.3 MBytes   254 Mbits/sec   0.015 ms 1406/22993 (6.1%)
+[ *1] 2.0000-3.0000 sec  29.8 MBytes   250 Mbits/sec   0.015 ms 1355/22636 (6%)
+[ *1] 3.0000-4.0000 sec  28.4 MBytes   239 Mbits/sec   0.021 ms 1549/21836 (7.1%)
+[ *1] 4.0000-5.0000 sec  27.9 MBytes   234 Mbits/sec   0.022 ms 1420/21338 (6.7%)
+[ *1] 5.0000-6.0000 sec  30.7 MBytes   257 Mbits/sec   0.017 ms 1130/23015 (4.9%)
+[ *1] 6.0000-7.0000 sec  28.6 MBytes   240 Mbits/sec   0.019 ms 1246/21648 (5.8%)
+[ *1] 7.0000-8.0000 sec  27.3 MBytes   229 Mbits/sec   0.017 ms 2306/21792 (11%)
+[ *1] 8.0000-9.0000 sec  19.3 MBytes   162 Mbits/sec   0.011 ms 7976/21730 (37%)
+[ *1] 9.0000-9.9957 sec  20.3 MBytes   171 Mbits/sec   0.025 ms 6699/21192 (32%)
+[ *1] 0.0000-9.9957 sec   271 MBytes   228 Mbits/sec   0.037 ms 25904/219468 (12%)
+--- Test 4 of 10 ---
+------------------------------------------------------------
+Client connecting to 192.168.1.4, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.1.12 port 60178 connected with 192.168.1.4 port 5001 (reverse)
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[ *1] 0.0000-1.0000 sec  30.1 MBytes   253 Mbits/sec   0.023 ms 651/22157 (2.9%)
+[ *1] 1.0000-2.0000 sec  28.9 MBytes   243 Mbits/sec   0.016 ms 1813/22454 (8.1%)
+[ *1] 2.0000-3.0000 sec  31.9 MBytes   268 Mbits/sec   0.010 ms 248/23020 (1.1%)
+[ *1] 3.0000-4.0000 sec  31.7 MBytes   266 Mbits/sec   0.010 ms 33/22624 (0.15%)
+[ *1] 4.0000-5.0000 sec  31.5 MBytes   265 Mbits/sec   0.013 ms 285/22782 (1.3%)
+[ *1] 5.0000-6.0000 sec  31.1 MBytes   261 Mbits/sec   0.027 ms 331/22503 (1.5%)
+[ *1] 6.0000-7.0000 sec  32.4 MBytes   272 Mbits/sec   0.019 ms 4/23091 (0.017%)
+[ *1] 7.0000-8.0000 sec  31.2 MBytes   262 Mbits/sec   0.016 ms 649/22907 (2.8%)
+[ *1] 8.0000-9.0000 sec  28.4 MBytes   239 Mbits/sec   0.011 ms 1196/21483 (5.6%)
+[ *1] 9.0000-9.9993 sec  32.1 MBytes   269 Mbits/sec   0.042 ms 85/22977 (0.37%)
+[ *1] 0.0000-9.9993 sec   309 MBytes   260 Mbits/sec   0.030 ms 5295/225998 (2.3%)
+--- Test 5 of 10 ---
+------------------------------------------------------------
+Client connecting to 192.168.1.4, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.1.12 port 52119 connected with 192.168.1.4 port 5001 (reverse)
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[ *1] 0.0000-1.0000 sec  27.7 MBytes   232 Mbits/sec   0.017 ms 1213/20972 (5.8%)
+[ *1] 1.0000-2.0000 sec  17.7 MBytes   149 Mbits/sec   0.012 ms 9686/22347 (43%)
+[ *1] 2.0000-3.0000 sec  21.5 MBytes   181 Mbits/sec   0.016 ms 7464/22817 (33%)
+[ *1] 3.0000-4.0000 sec  30.8 MBytes   259 Mbits/sec   0.018 ms 401/22401 (1.8%)
+[ *1] 4.0000-5.0000 sec  30.2 MBytes   253 Mbits/sec   0.022 ms 1017/22570 (4.5%)
+[ *1] 5.0000-6.0000 sec  29.4 MBytes   246 Mbits/sec   0.010 ms 1268/22227 (5.7%)
+[ *1] 6.0000-7.0000 sec  33.0 MBytes   276 Mbits/sec   0.023 ms 125/23629 (0.53%)
+[ *1] 7.0000-8.0000 sec  31.4 MBytes   264 Mbits/sec   0.024 ms 118/22541 (0.52%)
+[ *1] 8.0000-9.0000 sec  30.8 MBytes   258 Mbits/sec   0.030 ms 811/22780 (3.6%)
+[ *1] 9.0000-9.9971 sec  31.8 MBytes   267 Mbits/sec   0.023 ms 395/23074 (1.7%)
+[ *1] 0.0000-9.9971 sec   284 MBytes   239 Mbits/sec   0.039 ms 22498/225358 (10%)
+--- Test 6 of 10 ---
+------------------------------------------------------------
+Client connecting to 192.168.1.4, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.1.12 port 54658 connected with 192.168.1.4 port 5001 (reverse)
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[ *1] 0.0000-1.0000 sec  30.4 MBytes   255 Mbits/sec   0.022 ms 62/21750 (0.29%)
+[ *1] 1.0000-2.0000 sec  30.6 MBytes   257 Mbits/sec   0.022 ms 137/21959 (0.62%)
+[ *1] 2.0000-3.0000 sec  28.9 MBytes   242 Mbits/sec   0.023 ms 166/20746 (0.8%)
+[ *1] 3.0000-4.0000 sec  29.3 MBytes   245 Mbits/sec   0.018 ms 251/21116 (1.2%)
+[ *1] 4.0000-5.0000 sec  25.6 MBytes   215 Mbits/sec   0.019 ms 637/18923 (3.4%)
+[ *1] 5.0000-6.0000 sec  19.7 MBytes   165 Mbits/sec   0.011 ms 9724/23751 (41%)
+[ *1] 6.0000-7.0000 sec  24.9 MBytes   209 Mbits/sec   0.013 ms 6594/24380 (27%)
+[ *1] 7.0000-8.0000 sec  31.8 MBytes   267 Mbits/sec   0.025 ms 326/23000 (1.4%)
+[ *1] 8.0000-9.0000 sec  29.9 MBytes   251 Mbits/sec   0.010 ms 1085/22403 (4.8%)
+[ *1] 9.0000-9.9992 sec  29.5 MBytes   247 Mbits/sec   0.042 ms 644/21670 (3%)
+[ *1] 0.0000-9.9992 sec   280 MBytes   235 Mbits/sec   0.039 ms 19626/219698 (8.9%)
+--- Test 7 of 10 ---
+------------------------------------------------------------
+Client connecting to 192.168.1.4, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.1.12 port 37416 connected with 192.168.1.4 port 5001 (reverse)
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[ *1] 0.0000-1.0000 sec  31.0 MBytes   260 Mbits/sec   0.026 ms 238/22383 (1.1%)
+[ *1] 1.0000-2.0000 sec  30.4 MBytes   255 Mbits/sec   0.013 ms 85/21798 (0.39%)
+[ *1] 2.0000-3.0000 sec  31.8 MBytes   267 Mbits/sec   0.011 ms 32/22750 (0.14%)
+[ *1] 3.0000-4.0000 sec  31.5 MBytes   264 Mbits/sec   0.014 ms 78/22556 (0.35%)
+[ *1] 4.0000-5.0000 sec  31.6 MBytes   265 Mbits/sec   0.081 ms 213/22748 (0.94%)
+[ *1] 5.0000-6.0000 sec  31.0 MBytes   260 Mbits/sec   0.017 ms 36/22171 (0.16%)
+[ *1] 6.0000-7.0000 sec  31.5 MBytes   264 Mbits/sec   0.015 ms 184/22642 (0.81%)
+[ *1] 7.0000-8.0000 sec  31.4 MBytes   264 Mbits/sec   0.011 ms 47/22457 (0.21%)
+[ *1] 8.0000-9.0000 sec  25.7 MBytes   216 Mbits/sec   0.013 ms 3381/21735 (16%)
+[ *1] 9.0000-10.0000 sec  19.4 MBytes   163 Mbits/sec   0.012 ms 6814/20673 (33%)
+[ *1] 0.0000-10.0861 sec   296 MBytes   246 Mbits/sec   0.037 ms 11300/222329 (5.1%)
+--- Test 8 of 10 ---
+------------------------------------------------------------
+Client connecting to 192.168.1.4, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.1.12 port 37343 connected with 192.168.1.4 port 5001 (reverse)
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[ *1] 0.0000-1.0000 sec  27.6 MBytes   232 Mbits/sec   0.013 ms 1823/21529 (8.5%)
+[ *1] 1.0000-2.0000 sec  26.6 MBytes   223 Mbits/sec   0.010 ms 2783/21731 (13%)
+[ *1] 2.0000-3.0000 sec  30.5 MBytes   256 Mbits/sec   0.024 ms 479/22213 (2.2%)
+[ *1] 3.0000-4.0000 sec  31.4 MBytes   264 Mbits/sec   0.011 ms 312/22743 (1.4%)
+[ *1] 4.0000-5.0000 sec  31.6 MBytes   265 Mbits/sec   0.023 ms 274/22846 (1.2%)
+[ *1] 5.0000-6.0000 sec  29.6 MBytes   249 Mbits/sec   0.011 ms 550/21697 (2.5%)
+[ *1] 6.0000-7.0000 sec  30.0 MBytes   252 Mbits/sec   0.019 ms 216/21617 (1%)
+[ *1] 7.0000-8.0000 sec  29.5 MBytes   247 Mbits/sec   0.019 ms 508/21528 (2.4%)
+[ *1] 8.0000-9.0000 sec  28.9 MBytes   242 Mbits/sec   0.022 ms 1431/22049 (6.5%)
+[ *1] 9.0000-9.9985 sec  28.7 MBytes   241 Mbits/sec   0.032 ms 397/20871 (1.9%)
+[ *1] 0.0000-9.9985 sec   294 MBytes   247 Mbits/sec   0.032 ms 8773/218824 (4%)
+--- Test 9 of 10 ---
+------------------------------------------------------------
+Client connecting to 192.168.1.4, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.1.12 port 56682 connected with 192.168.1.4 port 5001 (reverse)
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[ *1] 0.0000-1.0000 sec  28.7 MBytes   241 Mbits/sec   0.015 ms 957/21428 (4.5%)
+[ *1] 1.0000-2.0000 sec  22.6 MBytes   190 Mbits/sec   0.026 ms 2603/18748 (14%)
+[ *1] 2.0000-3.0000 sec  17.1 MBytes   143 Mbits/sec   0.012 ms 10599/22796 (46%)
+[ *1] 3.0000-4.0000 sec  27.4 MBytes   230 Mbits/sec   0.012 ms 4643/24215 (19%)
+[ *1] 4.0000-5.0000 sec  29.9 MBytes   250 Mbits/sec   0.016 ms 59/21355 (0.28%)
+[ *1] 5.0000-6.0000 sec  24.3 MBytes   204 Mbits/sec   0.016 ms 3973/21320 (19%)
+[ *1] 6.0000-7.0000 sec  29.4 MBytes   247 Mbits/sec   0.020 ms 61/21059 (0.29%)
+[ *1] 7.0000-8.0000 sec  29.2 MBytes   245 Mbits/sec   0.014 ms 86/20907 (0.41%)
+[ *1] 8.0000-9.0000 sec  28.3 MBytes   238 Mbits/sec   0.022 ms 34/20240 (0.17%)
+[ *1] 9.0000-9.9929 sec  29.3 MBytes   248 Mbits/sec   0.039 ms 69/20969 (0.33%)
+[ *1] 0.0000-9.9929 sec   266 MBytes   224 Mbits/sec   0.042 ms 23084/213037 (11%)
+--- Test 10 of 10 ---
+------------------------------------------------------------
+Client connecting to 192.168.1.4, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.1.12 port 53097 connected with 192.168.1.4 port 5001 (reverse)
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[ *1] 0.0000-1.0000 sec  29.6 MBytes   249 Mbits/sec   0.021 ms 79/21225 (0.37%)
+[ *1] 1.0000-2.0000 sec  29.8 MBytes   250 Mbits/sec   0.016 ms 45/21326 (0.21%)
+[ *1] 2.0000-3.0000 sec  31.4 MBytes   263 Mbits/sec   0.010 ms 21/22403 (0.094%)
+[ *1] 3.0000-4.0000 sec  30.0 MBytes   252 Mbits/sec   0.020 ms 210/21609 (0.97%)
+[ *1] 4.0000-5.0000 sec  29.3 MBytes   246 Mbits/sec   0.018 ms 1395/22320 (6.2%)
+[ *1] 5.0000-6.0000 sec  23.8 MBytes   200 Mbits/sec   0.024 ms 3713/20720 (18%)
+[ *1] 6.0000-7.0000 sec  18.6 MBytes   156 Mbits/sec   0.018 ms 9369/22651 (41%)
+[ *1] 7.0000-8.0000 sec  25.4 MBytes   213 Mbits/sec   0.019 ms 3198/21350 (15%)
+[ *1] 8.0000-9.0000 sec  28.7 MBytes   241 Mbits/sec   0.019 ms 779/21284 (3.7%)
+[ *1] 9.0000-10.0000 sec  28.4 MBytes   239 Mbits/sec   0.020 ms 1615/21900 (7.4%)
+[ *1] 0.0000-10.0002 sec   275 MBytes   231 Mbits/sec   0.042 ms 20424/216795 (9.4%)
+
+--- STATISTICAL RESULTS (Mbits/sec) ---
+Avg: 238.50 | Min: 231.00 | Max: 246.00 | StdDev: 10.61

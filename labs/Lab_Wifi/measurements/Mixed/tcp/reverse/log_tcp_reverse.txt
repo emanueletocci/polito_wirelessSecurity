@@ -1,0 +1,183 @@
+--- Test 1 of 10 ---
+------------------------------------------------------------
+Client connecting to 192.168.1.4, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.1.11 port 33714 connected with 192.168.1.4 port 5001 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[ *1] 0.0000-1.0000 sec  71.0 MBytes   595 Mbits/sec
+[ *1] 1.0000-2.0000 sec  83.9 MBytes   704 Mbits/sec
+[ *1] 2.0000-3.0000 sec  89.7 MBytes   752 Mbits/sec
+[ *1] 3.0000-4.0000 sec  96.3 MBytes   808 Mbits/sec
+[ *1] 4.0000-5.0000 sec  96.6 MBytes   810 Mbits/sec
+[ *1] 5.0000-6.0000 sec  92.8 MBytes   778 Mbits/sec
+[ *1] 6.0000-7.0000 sec  99.0 MBytes   830 Mbits/sec
+[ *1] 7.0000-8.0000 sec   104 MBytes   870 Mbits/sec
+[ *1] 8.0000-9.0000 sec  98.2 MBytes   824 Mbits/sec
+[ *1] 9.0000-10.0000 sec  99.5 MBytes   835 Mbits/sec
+[ *1] 0.0000-10.0573 sec   937 MBytes   782 Mbits/sec
+--- Test 2 of 10 ---
+------------------------------------------------------------
+Client connecting to 192.168.1.4, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.1.11 port 39160 connected with 192.168.1.4 port 5001 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[ *1] 0.0000-1.0000 sec  90.6 MBytes   760 Mbits/sec
+[ *1] 1.0000-2.0000 sec   100 MBytes   841 Mbits/sec
+[ *1] 2.0000-3.0000 sec   112 MBytes   941 Mbits/sec
+[ *1] 3.0000-4.0000 sec   100 MBytes   839 Mbits/sec
+[ *1] 4.0000-5.0000 sec   110 MBytes   923 Mbits/sec
+[ *1] 5.0000-6.0000 sec   105 MBytes   880 Mbits/sec
+[ *1] 6.0000-7.0000 sec  94.4 MBytes   792 Mbits/sec
+[ *1] 7.0000-8.0000 sec   116 MBytes   970 Mbits/sec
+[ *1] 8.0000-9.0000 sec   106 MBytes   890 Mbits/sec
+[ *1] 9.0000-10.0000 sec  96.5 MBytes   809 Mbits/sec
+[ *1] 0.0000-10.2321 sec  1.02 GBytes   860 Mbits/sec
+--- Test 3 of 10 ---
+------------------------------------------------------------
+Client connecting to 192.168.1.4, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.1.11 port 33498 connected with 192.168.1.4 port 5001 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[ *1] 0.0000-1.0000 sec  84.8 MBytes   712 Mbits/sec
+[ *1] 1.0000-2.0000 sec  92.9 MBytes   779 Mbits/sec
+[ *1] 2.0000-3.0000 sec  90.5 MBytes   759 Mbits/sec
+[ *1] 3.0000-4.0000 sec  90.7 MBytes   761 Mbits/sec
+[ *1] 4.0000-5.0000 sec  90.8 MBytes   762 Mbits/sec
+[ *1] 5.0000-6.0000 sec  93.2 MBytes   782 Mbits/sec
+[ *1] 6.0000-7.0000 sec  95.1 MBytes   797 Mbits/sec
+[ *1] 7.0000-8.0000 sec  92.2 MBytes   773 Mbits/sec
+[ *1] 8.0000-9.0000 sec  93.2 MBytes   782 Mbits/sec
+[ *1] 9.0000-10.0000 sec  97.3 MBytes   816 Mbits/sec
+[ *1] 0.0000-10.0202 sec   922 MBytes   772 Mbits/sec
+--- Test 4 of 10 ---
+------------------------------------------------------------
+Client connecting to 192.168.1.4, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.1.11 port 54526 connected with 192.168.1.4 port 5001 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[ *1] 0.0000-1.0000 sec  82.0 MBytes   688 Mbits/sec
+[ *1] 1.0000-2.0000 sec  89.1 MBytes   747 Mbits/sec
+[ *1] 2.0000-3.0000 sec  91.9 MBytes   771 Mbits/sec
+[ *1] 3.0000-4.0000 sec  90.9 MBytes   763 Mbits/sec
+[ *1] 4.0000-5.0000 sec  93.2 MBytes   782 Mbits/sec
+[ *1] 5.0000-6.0000 sec  88.5 MBytes   742 Mbits/sec
+[ *1] 6.0000-7.0000 sec  90.5 MBytes   759 Mbits/sec
+[ *1] 7.0000-8.0000 sec  92.1 MBytes   773 Mbits/sec
+[ *1] 8.0000-9.0000 sec  93.7 MBytes   786 Mbits/sec
+[ *1] 9.0000-10.0000 sec  89.5 MBytes   751 Mbits/sec
+[ *1] 0.0000-10.0543 sec   907 MBytes   757 Mbits/sec
+--- Test 5 of 10 ---
+------------------------------------------------------------
+Client connecting to 192.168.1.4, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.1.11 port 45128 connected with 192.168.1.4 port 5001 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[ *1] 0.0000-1.0000 sec  95.3 MBytes   799 Mbits/sec
+[ *1] 1.0000-2.0000 sec   104 MBytes   872 Mbits/sec
+[ *1] 2.0000-3.0000 sec  98.5 MBytes   827 Mbits/sec
+[ *1] 3.0000-4.0000 sec  95.4 MBytes   800 Mbits/sec
+[ *1] 4.0000-5.0000 sec   101 MBytes   848 Mbits/sec
+[ *1] 5.0000-6.0000 sec  99.7 MBytes   836 Mbits/sec
+[ *1] 6.0000-7.0000 sec  95.5 MBytes   801 Mbits/sec
+[ *1] 7.0000-8.0000 sec   100 MBytes   842 Mbits/sec
+[ *1] 8.0000-9.0000 sec  83.4 MBytes   699 Mbits/sec
+[ *1] 9.0000-10.0000 sec  82.4 MBytes   691 Mbits/sec
+[ *1] 0.0000-10.0867 sec   964 MBytes   802 Mbits/sec
+--- Test 6 of 10 ---
+------------------------------------------------------------
+Client connecting to 192.168.1.4, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.1.11 port 45876 connected with 192.168.1.4 port 5001 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[ *1] 0.0000-1.0000 sec  85.2 MBytes   715 Mbits/sec
+[ *1] 1.0000-2.0000 sec  96.9 MBytes   812 Mbits/sec
+[ *1] 2.0000-3.0000 sec   109 MBytes   915 Mbits/sec
+[ *1] 3.0000-4.0000 sec  98.9 MBytes   830 Mbits/sec
+[ *1] 4.0000-5.0000 sec   101 MBytes   847 Mbits/sec
+[ *1] 5.0000-6.0000 sec  95.1 MBytes   797 Mbits/sec
+[ *1] 6.0000-7.0000 sec  97.4 MBytes   817 Mbits/sec
+[ *1] 7.0000-8.0000 sec   101 MBytes   846 Mbits/sec
+[ *1] 8.0000-9.0000 sec   105 MBytes   883 Mbits/sec
+[ *1] 9.0000-10.0000 sec  93.7 MBytes   786 Mbits/sec
+[ *1] 0.0000-10.1096 sec   996 MBytes   826 Mbits/sec
+--- Test 7 of 10 ---
+------------------------------------------------------------
+Client connecting to 192.168.1.4, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.1.11 port 50002 connected with 192.168.1.4 port 5001 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[ *1] 0.0000-1.0000 sec  89.5 MBytes   751 Mbits/sec
+[ *1] 1.0000-2.0000 sec  89.6 MBytes   751 Mbits/sec
+[ *1] 2.0000-3.0000 sec  91.0 MBytes   763 Mbits/sec
+[ *1] 3.0000-4.0000 sec  85.6 MBytes   718 Mbits/sec
+[ *1] 4.0000-5.0000 sec  91.2 MBytes   765 Mbits/sec
+[ *1] 5.0000-6.0000 sec  87.4 MBytes   733 Mbits/sec
+[ *1] 6.0000-7.0000 sec  92.5 MBytes   776 Mbits/sec
+[ *1] 7.0000-8.0000 sec  93.4 MBytes   783 Mbits/sec
+[ *1] 8.0000-9.0000 sec  88.9 MBytes   745 Mbits/sec
+[ *1] 9.0000-10.0000 sec  95.6 MBytes   802 Mbits/sec
+[ *1] 0.0000-10.0728 sec   911 MBytes   759 Mbits/sec
+--- Test 8 of 10 ---
+------------------------------------------------------------
+Client connecting to 192.168.1.4, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.1.11 port 33568 connected with 192.168.1.4 port 5001 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[ *1] 0.0000-1.0000 sec  98.0 MBytes   822 Mbits/sec
+[ *1] 1.0000-2.0000 sec  84.7 MBytes   711 Mbits/sec
+[ *1] 2.0000-3.0000 sec  72.8 MBytes   610 Mbits/sec
+[ *1] 3.0000-4.0000 sec  33.0 MBytes   277 Mbits/sec
+[ *1] 4.0000-5.0000 sec  32.0 MBytes   269 Mbits/sec
+[ *1] 5.0000-6.0000 sec  53.3 MBytes   447 Mbits/sec
+[ *1] 6.0000-7.0000 sec   112 MBytes   936 Mbits/sec
+[ *1] 7.0000-8.0000 sec   112 MBytes   941 Mbits/sec
+[ *1] 8.0000-9.0000 sec   112 MBytes   941 Mbits/sec
+[ *1] 9.0000-10.0000 sec   105 MBytes   882 Mbits/sec
+[ *1] 0.0000-10.2332 sec   836 MBytes   685 Mbits/sec
+--- Test 9 of 10 ---
+------------------------------------------------------------
+Client connecting to 192.168.1.4, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.1.11 port 59036 connected with 192.168.1.4 port 5001 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[ *1] 0.0000-1.0000 sec  95.0 MBytes   797 Mbits/sec
+[ *1] 1.0000-2.0000 sec   107 MBytes   902 Mbits/sec
+[ *1] 2.0000-3.0000 sec   112 MBytes   941 Mbits/sec
+[ *1] 3.0000-4.0000 sec   112 MBytes   941 Mbits/sec
+[ *1] 4.0000-5.0000 sec   112 MBytes   941 Mbits/sec
+[ *1] 5.0000-6.0000 sec   112 MBytes   941 Mbits/sec
+[ *1] 6.0000-7.0000 sec   112 MBytes   941 Mbits/sec
+[ *1] 7.0000-8.0000 sec   112 MBytes   941 Mbits/sec
+[ *1] 8.0000-9.0000 sec   111 MBytes   932 Mbits/sec
+[ *1] 9.0000-10.0000 sec   112 MBytes   939 Mbits/sec
+[ *1] 0.0000-10.1144 sec  1.09 GBytes   922 Mbits/sec
+--- Test 10 of 10 ---
+------------------------------------------------------------
+Client connecting to 192.168.1.4, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.1.11 port 38428 connected with 192.168.1.4 port 5001 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[ *1] 0.0000-1.0000 sec  83.9 MBytes   704 Mbits/sec
+[ *1] 1.0000-2.0000 sec  95.0 MBytes   797 Mbits/sec
+[ *1] 2.0000-3.0000 sec  99.6 MBytes   836 Mbits/sec
+[ *1] 3.0000-4.0000 sec   103 MBytes   868 Mbits/sec
+[ *1] 4.0000-5.0000 sec   100 MBytes   840 Mbits/sec
+[ *1] 5.0000-6.0000 sec  96.4 MBytes   809 Mbits/sec
+[ *1] 6.0000-7.0000 sec  95.9 MBytes   804 Mbits/sec
+[ *1] 7.0000-8.0000 sec  97.4 MBytes   817 Mbits/sec
+[ *1] 8.0000-9.0000 sec  99.3 MBytes   833 Mbits/sec
+[ *1] 9.0000-10.0000 sec   105 MBytes   878 Mbits/sec
+[ *1] 0.0000-10.0724 sec   981 MBytes   817 Mbits/sec
+
+--- STATISTICAL RESULTS (Mbits/sec) ---
+Avg: 798.20 | Min: 685.00 | Max: 922.00 | StdDev: 64.36
