@@ -21,16 +21,15 @@ def main():
             out = subprocess.run(cmd, capture_output=True, text=True, check=True).stdout 
 
             with open(log_file, "a") as f: 
-                f.write(f"--- Test {i} of 10 ---\n{out}") 
+                f.write(f"--- Test {i} of 10 ---\n{out}\n") 
 
             match = re.search( 
                 r"0\.0+-10\.\d+\s+sec.*?\s+(\d+(?:\.\d+)?)\s+[M|G]bits/sec", out 
             ) 
             if match: 
                 tputs.append(float(match.group(1))) 
-                print(f"Test {i}/10 -> {tputs[-1]} Mbps") 
-            else: 
-                print(f"Test {i}/10 -> Warning: No data extracted.") 
+            
+            print(f"Completed Test {i}/10") 
 
         except Exception as e: 
             sys.exit(f"Fatal Error: {e}") 
@@ -38,8 +37,18 @@ def main():
         time.sleep(1) 
 
     if tputs: 
-        print("\n--- STATISTICAL RESULTS (Mbits/sec) ---") 
-        print(f"Avg: {statistics.mean(tputs):.2f} | Min: {min(tputs):.2f} | Max: {max(tputs):.2f} | StdDev: {(statistics.stdev(tputs) if len(tputs)>1 else 0):.2f}") 
+        stats_text = (
+            "\n--- STATISTICAL RESULTS (Mbits/sec) ---\n"
+            f"Avg: {statistics.mean(tputs):.2f} | "
+            f"Min: {min(tputs):.2f} | "
+            f"Max: {max(tputs):.2f} | "
+            f"StdDev: {(statistics.stdev(tputs) if len(tputs)>1 else 0):.2f}\n"
+        )
+        
+        print(stats_text) 
+        
+        with open(log_file, "a") as f:
+            f.write(stats_text)
 
 if __name__ == "__main__": 
     main()
