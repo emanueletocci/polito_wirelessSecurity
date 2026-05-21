@@ -1,0 +1,45 @@
+--- Authors ---
+Name: Emanuele
+Lastname: Tocci
+Matricola: s363290
+email: s363290@studenti.polito.it
+
+Name: Marco
+Lastname: Ciucci
+Matricola: s358656
+email: s358656@studenti.polito.it
+
+--- Setup ---
+Alice's PC: CachyOS
+Alice's device: Bose QuietComfort 45 (QC-45) Bluetooth headphones
+Trudy's PC: ParrotOS (Live USB)
+
+Timeline:
+Alice's Device connects to Alice's PC while Trudy passively sniffs the BLE traffic.
+During the capture, Alice's device rotates its RPA, which are tracked by Trudy using a static payload fingerprint to demonstrate linkability despite the privacy features. 
+Specifically, 7 distinct address rotations (7 different RPA MAC addresses) were successfully identified during the sniffing session.
+--- Traces --- 
+
+Trudy's MAC RPA addresses
+(bthci_evt.bd_addr == 5f:5c:0f:06:8a:a3)
+||
+(bthci_evt.bd_addr == 41:ad:22:28:d7:dd)
+||
+(bthci_evt.bd_addr == 6b:6d:c1:09:07:89)
+||
+(bthci_evt.bd_addr == 7f:fa:1c:29:08:09)
+||
+(bthci_evt.bd_addr == 4c:3d:66:fb:b3:2d)
+||
+(bthci_evt.bd_addr == 53:7c:ae:93:48:e2)
+||
+(bthci_evt.bd_addr == 46:76:f6:33:0a:e2)
+
+Alice's device MAC public Addresses
+(bthci_evt.bd_addr == ac:bf:71:81:b2:22)
+
+--- Useful Filters ---
+
+- (frame[29:12] == 0b:09:4c:45:2d:54:68:75:6e:64:65:72 )
+- (btcommon.eir_ad.entry.device_name == "LE-Thunder")
+- (btcommon.eir_ad.entry.data == 51:10:ac:83:6e:59:e5:46:0b:59:13)
