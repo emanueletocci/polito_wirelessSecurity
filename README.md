@@ -1,15 +1,16 @@
-# WD2DCS Labs: GNSS and WiFi Performance
+# WD2DCS Labs: GNSS, WiFi, and Bluetooth Performance
 
 ![](/resources/logo_polito.jpg)
 
-This repository contains all the materials, scripts, datasets, and LaTeX reports for the GNSS and WiFi Performance laboratory experiments. These labs were conducted as part of the **Wireless and Device-to-Device Communication Security (WD2DCS)** course within the **Cybersecurity Engineering** master's degree program at **Politecnico di Torino**.
+This repository contains all the materials, scripts, datasets, and LaTeX reports for the laboratory experiments conducted as part of the **Wireless and Device-to-Device Communication Security (WD2DCS)** course within the **Cybersecurity Engineering** master's degree program at **Politecnico di Torino**.
 
 ## Overview
 
-This repository is divided into two main sections, each dedicated to a specific laboratory experience:
+This repository is divided into three main sections, each dedicated to a specific laboratory experience:
 
 1. **GNSS Lab**: Focuses on processing raw GNSS measurements collected from Android devices using MATLAB. 
 2. **WiFi Performance Lab**: Focuses on the analysis, performance evaluation, and security assessment of WiFi networks.
+3. **Bluetooth Lab**: Focuses on the analysis of Bluetooth Low Energy (BLE) privacy features, specifically MAC address randomization (RPA) and linkability attacks via payload fingerprinting.
 
 ## Note
 
@@ -27,11 +28,16 @@ The detailed lab reports, including all experimental results, theoretical backgr
 * Evaluate network performance metrics under varying configurations.
 * Analyze security implications within wireless communication environments.
 
+### Bluetooth Lab Objectives
+* Analyze Bluetooth protocol stack at HCI level.
+* Observe pairing procedures and privacy features (RPA).
+* Perform linkability attacks using Wireshark to track devices across address changes.
+
 ### Requirements
-* `MATLAB R2020a` or later (no additional toolboxes required).
-* Internet access for downloading NASA CCDIS ephemeris files (optional).
-* GNSSLogger App on Android for collecting raw GNSS measurements.
-* Packet analysis software (e.g., Wireshark) for WiFi captures.
+* `MATLAB R2020a` or later for GNSS Lab.
+* GNSSLogger App on Android.
+* Packet analysis software (e.g., **Wireshark**) for WiFi and Bluetooth captures.
+* Linux-based environment (e.g., ParrotOS, Kali) with Bluetooth interface for sniffing.
 
 ## Authors
 
@@ -40,4 +46,5 @@ The detailed lab reports, including all experimental results, theoretical backgr
 | **Antonio Amendolara** | [GitHub Profile](https://github.com/AntonioAmendolara) | 
 | **Davide Marin** | [GitHub Profile](https://github.com/MarinDavide) |
 | **Alberto Mercurelli** | [GitHub Profile](#) |
-| **Emanuele Tocci** | [GitHub Profile](https://github.com/emanueletocci) | 
+| **Emanuele Tocci** | [GitHub Profile](https://github.com/emanueletocci) |
+| **Marco Ciucci** | [GitHub Profile](#) |
