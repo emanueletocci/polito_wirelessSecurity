@@ -39,6 +39,9 @@ Alice's device MAC public Addresses
 (bthci_evt.bd_addr == ac:bf:71:81:b2:22)
 
 --- Useful Filters ---
-- (frame[29:12] == 0b:09:4c:45:2d:54:68:75:6e:64:65:72 )
-- (btcommon.eir_ad.entry.device_name == "LE-Thunder")
-- (btcommon.eir_ad.entry.data == 51:10:ac:83:6e:59:e5:46:0b:59:13)
+
+On Alice's PC we used the following filter to find advertisement packets coming from Alice's device RPA addresses
+- (bthci_evt.bd_addr == ac:bf:71:81:be:22) && (bthci_evt.le_meta_subevent == 0x0d) && (bthci_evt.le_peer_address_type != 0x01)
+
+On Trudy's PC we used the following filtering payloads to obtain RPA addresses 
+- (btcommon.eir_ad.entry.device_name == "LE-Thunder") || (btcommon.eir_ad.entry.data == 51:10:ac:83:6e:59:e5:46:0b:59:13)
