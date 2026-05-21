@@ -10,16 +10,16 @@ Matricola: s358656
 email: s358656@studenti.polito.it
 
 --- Setup ---
-Alice's PC: CachyOS
+Alice's PC: CachyOS (Kernel: 7.0.8-1-cachyos-bore)
 Alice's device: Bose QuietComfort 45 (QC-45) Bluetooth headphones
-Trudy's PC: ParrotOS (Live USB)
+Trudy's PC: ParrotOS 7.2 (Live USB, Kernel: 6.19.13-parrot7-amd64)
 
 Timeline:
-Alice's Device connects to Alice's PC while Trudy passively sniffs the BLE traffic.
+Alice's Device connects to Alice's PC different times, while Trudy passively sniffs the BLE traffic.
 During the capture, Alice's device rotates its RPA, which are tracked by Trudy using a static payload fingerprint to demonstrate linkability despite the privacy features. 
-Specifically, 7 distinct address rotations (7 different RPA MAC addresses) were successfully identified during the sniffing session.
---- Traces --- 
+Specifically, 7 distinct address rotations (7 different RPAs) were successfully identified during the sniffing session.
 
+--- Traces --- 
 Trudy's MAC RPA addresses
 (bthci_evt.bd_addr == 5f:5c:0f:06:8a:a3)
 ||
@@ -39,7 +39,6 @@ Alice's device MAC public Addresses
 (bthci_evt.bd_addr == ac:bf:71:81:b2:22)
 
 --- Useful Filters ---
-
 - (frame[29:12] == 0b:09:4c:45:2d:54:68:75:6e:64:65:72 )
 - (btcommon.eir_ad.entry.device_name == "LE-Thunder")
 - (btcommon.eir_ad.entry.data == 51:10:ac:83:6e:59:e5:46:0b:59:13)
