@@ -16,29 +16,6 @@ This repository is divided into three main sections, each dedicated to a specifi
 
 The detailed lab reports, including all experimental results, theoretical background, and data analysis, can be found in the respective `Report/` directories of each lab.
 
-## Lab Objectives & Requirements
-
-### GNSS Lab Objectives
-* Process raw GNSS measurements from Android devices.
-* Analyze pseudoranges, C/N₀, and WLS positioning.
-* Conduct spoofing experiments and evaluate detection strategies.
-
-### WiFi Performance Lab Objectives
-* Capture and analyze WiFi network traffic.
-* Evaluate network performance metrics under varying configurations.
-* Analyze security implications within wireless communication environments.
-
-### Bluetooth Lab Objectives
-* Analyze Bluetooth protocol stack at HCI level.
-* Observe pairing procedures and privacy features (RPA).
-* Perform linkability attacks using Wireshark to track devices across address changes.
-
-### Requirements
-* `MATLAB R2020a` or later for GNSS Lab.
-* GNSSLogger App on Android.
-* Packet analysis software (e.g., **Wireshark**) for WiFi and Bluetooth captures.
-* Linux-based environment (e.g., ParrotOS, Kali) with Bluetooth interface for sniffing.
-
 ## Authors
 
 | Name | GitHub |
