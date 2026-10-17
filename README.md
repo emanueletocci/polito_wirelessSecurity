@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="resources/logo_polito.jpg" alt="Politecnico di Torino" width="600"/>
+  <img src="resources/logo_polito.jpg" alt="Politecnico di Torino"/>
 </p>
 
 <h1 align="center">Wireless & Device-to-Device Communication Security</h1>
