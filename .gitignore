@@ -1,2 +1,29 @@
+# Packet captures and archives (large files)
 *.pcapng
 *.zip
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# MATLAB
+*.asv
+*.m~
+slprj/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE
+.vscode/
+.idea/
